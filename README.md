@@ -1,7 +1,9 @@
 ## Desafio Clean Architecture
 
 #### Deve-se rodar o docker para subir o serviço de banco de dados.
-#### Se necessário, execute as migrations com o Makefile (make migrate)
+#### Se necessário, execute as migrations com o Makefile (make migrate).
+
+#### Na pasta cmd/ordersystem execute o comando go run main.go wire_gen.go para subir todos os servidores (gRPC, GraphQL e REST).
 
 ## O gRPC server roda na porta 50051
 
